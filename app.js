@@ -149,20 +149,12 @@ function renderLabMenu() {
       <div>
         <h2 class="section-title" id="modalTitle">Laboratorium Nyamuk</h2>
         <p class="section-subtitle">
-          Menu ini bisa dipakai untuk menampilkan video edukasi dari YouTube atau video lokal dari folder <code>assets</code>.
+          Dibawah ini ada video edukasi bagaimana nyamuk dapat berkembang biak (siklus hidup nyamuk).
         </p>
       </div>
 
       <div class="video-frame">
         ${videoMarkup}
-      </div>
-
-      <div class="white-card">
-        <h3>Catatan</h3>
-        <p>
-          Isi video bisa diganti kapan saja lewat konstanta <strong>LAB_VIDEO_URL</strong> atau
-          <strong>LOCAL_VIDEO_SRC</strong> di <code>app.js</code>.
-        </p>
       </div>
     </section>
   `;
@@ -214,47 +206,45 @@ function renderBookMenu() {
   return `
     <section class="content-grid">
       <div>
-        <h2 class="section-title" id="modalTitle">Buku Saku</h2>
+        <h2 class="section-title" id="modalTitle">Misi Agen Anti Nyamuk</h2>
         <p class="section-subtitle">
-          Ringkasan singkat yang ramah anak tentang DBD dan cara pencegahannya.
+          Buku saku ini berisi penjelasan singkat tentang Demam Berdarah, nyamuk Aedes aegypti, dan cara pencegahannya.
         </p>
       </div>
 
-      <div class="info-columns">
-        <article class="white-card">
-          <h3>Apa itu DBD?</h3>
-          <p>
-            DBD adalah penyakit yang disebabkan oleh virus dan ditularkan melalui gigitan nyamuk tertentu.
-            Karena itu, lingkungan yang bersih dan bebas genangan air sangat penting.
-          </p>
-        </article>
+      <div class="white-card">
+        <h3>Demam Berdarah</h3>
+        <p>
+          Demam Berdarah adalah penyakit berbahaya yang dapat menyerang siapa saja, terutama anak-anak.
+          Penyakit ini ditularkan melalui gigitan nyamuk Aedes aegypti yang sering hidup di sekitar lingkungan rumah.
+          Nyamuk ini memiliki ciri khas berwarna hitam dengan garis putih dan biasanya aktif menggigit manusia pada pagi dan sore hari.
+          Oleh karena itu, kita harus selalu waspada dan menjaga kebersihan lingkungan setiap hari.
+        </p>
 
-        <article class="white-card">
-          <h3>Tanda yang perlu diwaspadai</h3>
-          <ul>
-            <li>Demam tinggi</li>
-            <li>Badan lemas</li>
-            <li>Sakit kepala atau nyeri tubuh</li>
-            <li>Perlu segera diperiksa tenaga kesehatan</li>
-          </ul>
-        </article>
+        <p>
+          Nyamuk Aedes aegypti berkembang biak di tempat yang sering tidak kita sadari, yaitu genangan air bersih.
+          Banyak orang mengira nyamuk hanya hidup di air kotor, padahal nyamuk ini justru menyukai air yang bersih dan tenang.
+          Contohnya adalah air di bak mandi, ember, kaleng bekas, botol, dan bahkan ban bekas yang menampung air hujan.
+          Jika tempat-tempat ini tidak dibersihkan secara rutin, maka akan menjadi sarang nyamuk yang berbahaya.
+        </p>
 
-        <article class="white-card">
-          <h3>3M Plus</h3>
-          <ul>
-            <li>Menguras tempat air</li>
-            <li>Menutup rapat penampungan air</li>
-            <li>Mendaur ulang atau membuang barang bekas</li>
-            <li>Plus: pakai kelambu, lotion anti-nyamuk, dan jaga kebersihan</li>
-          </ul>
-        </article>
+        <p>
+          Di dalam air tersebut, nyamuk akan bertelur dan menghasilkan jentik.
+          Jentik adalah tahap awal kehidupan nyamuk yang hidup di dalam air dan bergerak-gerak kecil.
+          Meskipun ukurannya sangat kecil, jentik akan berkembang menjadi nyamuk dewasa yang siap menggigit manusia dan menyebarkan penyakit.
+          Oleh karena itu, jika kita menemukan jentik di dalam air, itu adalah tanda bahwa tempat tersebut sudah menjadi sarang nyamuk dan harus segera dibersihkan.
+        </p>
+      </div>
 
-        <article class="white-card">
-          <h3>Kebiasaan baik</h3>
-          <p>
-            Rajin cek halaman rumah, buang sampah dengan benar, dan pastikan tidak ada air tergenang.
-          </p>
-        </article>
+      <div class="white-card">
+        <h3>Cara Pencegahan</h3>
+        <ul>
+          <li>Menguras tempat penampungan air secara rutin</li>
+          <li>Menutup rapat bak mandi, ember, dan wadah air</li>
+          <li>Mendaur ulang atau membuang barang bekas yang dapat menampung air</li>
+          <li>Menjaga kebersihan lingkungan rumah setiap hari</li>
+          <li>Memakai kelambu atau lotion anti-nyamuk bila diperlukan</li>
+        </ul>
       </div>
     </section>
   `;
@@ -264,28 +254,33 @@ function renderAboutMenu() {
   return `
     <section class="content-grid">
       <div>
-        <h2 class="section-title" id="modalTitle">Tentang</h2>
+        <h2 class="section-title" id="modalTitle">DBD Defender</h2>
         <p class="section-subtitle">
-          DBD Defender dibuat sebagai media edukasi interaktif untuk anak-anak agar lebih mudah memahami bahaya DBD dan cara mencegahnya.
+          Teman Digital Anak untuk Belajar dan Melindungi Diri dari Demam Berdarah
         </p>
       </div>
 
       <div class="white-card">
-        <h3>Tujuan aplikasi</h3>
-        <ul>
-          <li>Memperkenalkan bahaya DBD dengan visual yang menarik</li>
-          <li>Membantu anak-anak belajar lewat video, bacaan, dan quiz</li>
-          <li>Mendorong kebiasaan hidup bersih di rumah dan lingkungan</li>
-        </ul>
+        <p>
+          DBD Defender adalah aplikasi edukasi multimedia interaktif yang dirancang untuk membantu anak-anak memahami bahaya Demam Berdarah serta cara pencegahannya.
+          Melalui pendekatan yang menyenangkan dan interaktif, aplikasi ini mengajak anak untuk belajar mengenali lingkungan sekitar, memahami risiko, serta melakukan tindakan sederhana untuk menjaga kesehatan.
+        </p>
+
+        <p>
+          Aplikasi ini bertujuan untuk meningkatkan literasi kesehatan anak, khususnya dalam pencegahan Demam Berdarah, sehingga anak dapat lebih sadar, peduli, dan mampu melindungi diri serta lingkungannya sejak dini.
+          Program ini dikembangkan dengan fokus implementasi di Desa Muntang, Kabupaten Purbalingga, sebagai bagian dari upaya edukasi berbasis masyarakat.
+        </p>
       </div>
 
       <div class="white-card">
-        <h3>Struktur menu</h3>
+        <h3>Tim Pengembang</h3>
         <ul>
-          <li><strong>Laboratorium Nyamuk</strong> — video edukasi</li>
-          <li><strong>Ujian Agen</strong> — 10 soal quiz interaktif</li>
-          <li><strong>Buku Saku</strong> — informasi ringkas</li>
-          <li><strong>Tentang</strong> — penjelasan aplikasi</li>
+          <li>Ketua Tim: Dimas Bagus Firmansyah (2311102002)</li>
+          <li>Anggota 1: Ahmadan Syaridin (231102038)</li>
+          <li>Anggota 2: Mochamad Dafa Irkham Maulana (2311102103)</li>
+          <li>Anggota 3: Muhamad Nasrulloh (2311102044)</li>
+          <li>Anggota 4: Asa Putra Pratama (2211102092)</li>
+          <li>Dosen Pembimbing: Aminatus Sa'adah, S.Si., M.Si.</li>
         </ul>
       </div>
     </section>
@@ -312,7 +307,7 @@ function renderQuiz() {
       <div>
         <h2 class="section-title" id="modalTitle">Ujian Agen</h2>
         <p class="section-subtitle">
-          Jawab 10 soal. Setelah memilih jawaban, kamu langsung tahu benar atau salah. Di akhir akan muncul total skor.
+          Kerjakan 10 soal untuk menguji pemahamanmu tentang DBD.  
         </p>
       </div>
 
@@ -342,7 +337,7 @@ function renderQuiz() {
         </div>
 
         <div class="quiz-feedback" id="quizFeedback">
-          Pilih satu jawaban untuk melihat hasilnya.
+          Pilih satu jawaban diatas untuk melihat hasilnya.
         </div>
 
         <div class="quiz-actions">
