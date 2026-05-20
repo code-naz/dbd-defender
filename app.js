@@ -262,12 +262,12 @@ function renderAboutMenu() {
 
       <div class="white-card">
         <p>
-          DBD Defender adalah aplikasi edukasi multimedia interaktif yang dirancang untuk membantu anak-anak memahami bahaya Demam Berdarah serta cara pencegahannya.
-          Melalui pendekatan yang menyenangkan dan interaktif, aplikasi ini mengajak anak untuk belajar mengenali lingkungan sekitar, memahami risiko, serta melakukan tindakan sederhana untuk menjaga kesehatan.
+          DBD Defender adalah website edukasi multimedia interaktif yang dirancang untuk membantu anak-anak memahami bahaya Demam Berdarah serta cara pencegahannya.
+          Melalui pendekatan yang menyenangkan dan interaktif, website ini mengajak anak untuk belajar mengenali lingkungan sekitar, memahami risiko, serta melakukan tindakan sederhana untuk menjaga kesehatan.
         </p>
 
         <p>
-          Aplikasi ini bertujuan untuk meningkatkan literasi kesehatan anak, khususnya dalam pencegahan Demam Berdarah, sehingga anak dapat lebih sadar, peduli, dan mampu melindungi diri serta lingkungannya sejak dini.
+          Website ini bertujuan untuk meningkatkan literasi kesehatan anak, khususnya dalam pencegahan Demam Berdarah, sehingga anak dapat lebih sadar, peduli, dan mampu melindungi diri serta lingkungannya sejak dini.
           Program ini dikembangkan dengan fokus implementasi di Desa Muntang, Kabupaten Purbalingga, sebagai bagian dari upaya edukasi berbasis masyarakat.
         </p>
       </div>
